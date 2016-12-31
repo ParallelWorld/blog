@@ -63,6 +63,10 @@ theme: maupassant
 
 plugin:
   hexo-generator-feed
+  hexo-generator-sitemap
+
+sitemap:
+  path: sitemap.xml
 
 # feed:
 #   type: atom
