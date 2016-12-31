@@ -1,6 +1,7 @@
 ---
 title: 关于我
 date: 2016-12-31 13:12:57
+comments: false
 ---
 
 <div align="left">

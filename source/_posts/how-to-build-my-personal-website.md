@@ -2,6 +2,7 @@
 title: 搭建博客（Github+Hexo+文章管理）
 date: 2016-12-30 19:23:15
 tags: blog
+categories: 工具
 ---
 
 
