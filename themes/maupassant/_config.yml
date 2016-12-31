@@ -1,5 +1,5 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
-duoshuo: ## Your duoshuo_shortname, e.g. username
+duoshuo: parallelworld ## Your duoshuo_shortname, e.g. username
 disqus: ## Your disqus_shortname, e.g. username
 google_search: true ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
@@ -33,15 +33,15 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - tag
   - recent_posts
   - recent_comments
-  - links
+  # - links
 
-links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+# links:
+  # - title: site-name1
+  #   url: http://www.example1.com/
+  # - title: site-name2
+  #   url: http://www.example2.com/
+  # - title: site-name3
+  #   url: http://www.example3.com/
 
 timeline:
   - num: 1
