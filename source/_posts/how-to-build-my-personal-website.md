@@ -71,6 +71,21 @@ public/
 当在新机器上写博客时，只需要把源文件 clone 下来，输入命令` npm install `即可。
 
 
+# 4. 安装maupassant主题
+
+```shell
+cd blog
+git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
+npm install hexo-renderer-jade --save
+npm install -g cnpm --registry=https://registry.npm.taobao.org  # 使用taobao源的cnpm代替官方的npm
+cnpm install hexo-renderer-sass --save   # 安装hexo-renderer-sass插件
+# 修改blog目录下，而不是主题目录下的_config.yml
+theme: landscape->theme: maupassant
+
+hexo g
+hexo s
+```
+
 # 参考链接
 - http://www.jianshu.com/p/834d7cc0668d
 - https://hexo.io/zh-cn
