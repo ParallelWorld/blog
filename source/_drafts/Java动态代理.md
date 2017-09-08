@@ -5,7 +5,7 @@ tags:
 categories:
 ---
 
-有了动态代理，对应的也就有静态代理。首先明确什么是代理。
+有了动态代理，对应的也就有静态代理。当然首先明确什么是代理。
 
 
 ## 代理
@@ -105,7 +105,7 @@ call after
 
 ## 参考
 - http://www.360doc.com/content/14/0801/14/1073512_398598312.shtml
-
+- http://blog.csdn.net/mhmyqn/article/details/48474815
 
 
 

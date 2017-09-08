@@ -62,10 +62,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 links:
   - title: 击水湘江 
     url: https://mikefighting.github.io 
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  #- title: site-name2
+   # url: http://www.example2.com/
+  #- title: site-name3
+   # url: http://www.example3.com/
 
 timeline:
   - num: 1
