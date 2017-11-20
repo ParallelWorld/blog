@@ -78,4 +78,5 @@ sitemap:
 deploy:
   type: git
   repo: https://github.com/parallelWorld/parallelworld.github.io.git
+  # repo: donglinlin@donglinlin.com:/var/repo/donglinlin_blog.git
   branch: master

@@ -1,5 +1,5 @@
 ---
-title: 浅谈ifelse
+title: 浅谈 ifelse
 date: 2017-09-06 15:38:25
 tags:
 categories:
