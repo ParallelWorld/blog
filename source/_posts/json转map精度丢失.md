@@ -91,5 +91,5 @@ json 库，比如 jackson 和 fastjson。
 
 # 参考链接
 
-[](http://www.jianshu.com/p/c51041a791bd)
-[](http://www.zhyea.com/2016/11/13/gson-map-integer-double.html)
+<http://www.jianshu.com/p/c51041a791bd>
+<http://www.zhyea.com/2016/11/13/gson-map-integer-double.html>
