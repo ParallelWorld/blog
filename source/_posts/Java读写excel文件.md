@@ -5,14 +5,15 @@ tags:
 categories:
 ---
 
-最近做了一个退款的需求，根据XXX提供的userid，orderid，refundmoney等数据调用相应的接口退款，数据给的形式不是txt，而是excel表格的形式。之前没做过，在此记录下。
+最近做了一个退款的需求，根据 XXX 提供的 userid，orderid，refundmoney 等数据调用相应的接口退款，数据给的形式不是 txt，而是 excel 表格的形式。之前没做过，在此记录下。
 
-选用的库是Apache POI，提供对excel的读写功能的java api。
+选用的库是 Apache POI，提供对 excel 的读写功能的 java api。
 
-- HSSF：excel2003（.xls）
-- XSSF：excel2007及以后（.xlsx）
+* HSSF：excel2003（.xls）
+* XSSF：excel2007 及以后（.xlsx）
 
-对应的maven依赖是
+对应的 maven 依赖是
+
 ```
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -25,7 +26,6 @@ categories:
     <version>3.14</version>
 </dependency>
 ```
-
 
 ### XLSReader
 
@@ -84,7 +84,6 @@ public class XLSReader {
 }
 ```
 
-
 ### XLSWriter
 
 ```java
@@ -124,6 +123,6 @@ public class XLSWriter {
 }
 ```
 
-
 # 参考链接
-- http://zhoushijie5230.iteye.com/blog/2114964
+
+* http://zhoushijie5230.iteye.com/blog/2114964

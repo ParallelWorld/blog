@@ -7,9 +7,10 @@ categories:
 
 server.xml 对于 tomcat 来讲就是配置文件。搞清楚 server.xml 是如何加载的很有必要。
 
-// 此处缺个UML时序图
+// 此处缺个 UML 时序图
 
-Bootstrap类
+Bootstrap 类
+
 ```java
 private void load(String[] arguments) throws Exception {
     // Call the load() method
@@ -32,9 +33,11 @@ private void load(String[] arguments) throws Exception {
     method.invoke(catalinaDaemon, param);
 }
 ```
-通过java反射，实际调用的是Catalina实例的load方法。
 
-Catalina类
+通过 java 反射，实际调用的是 Catalina 实例的 load 方法。
+
+Catalina 类
+
 ```java
 public void load() {
 
