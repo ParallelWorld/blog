@@ -51,14 +51,13 @@ pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tomcat7</groupId>
-    <artifactId>pw.parallelworld</artifactId>
+    <groupId>pw.parallelworld</groupId>
+    <artifactId>tomcat7</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -93,6 +92,7 @@ pom.xml
                     <include>**/*.xml</include>
                     <include>**/*.dtd</include>
                     <include>**/*.properties</include>
+                    <include>**/*.xsd</include>
                 </includes>
             </resource>
             <resource>
