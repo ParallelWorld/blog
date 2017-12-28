@@ -36,7 +36,7 @@ float 的精度是 6-7 位有效数字，6 位绝对是精确的。 double 的�
 
 在 gson 的`ObjectTypeAdapter`类中可以看到：
 
-```
+```java
 @Override public Object read(JsonReader in) throws IOException {
     JsonToken token = in.peek();
     switch (token) {
