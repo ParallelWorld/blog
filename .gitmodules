@@ -1,0 +1,3 @@
+[submodule "themes/mynext"]
+	path = themes/mynext
+	url = https://github.com/ParallelWorld/hexo-theme-next

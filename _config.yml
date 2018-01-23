@@ -59,7 +59,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next 
+theme: mynext 
 
 plugin:
   hexo-generator-feed
@@ -78,5 +78,4 @@ sitemap:
 deploy:
   type: git
   repo: https://github.com/parallelWorld/parallelworld.github.io.git
-  # repo: donglinlin@donglinlin.com:/var/repo/donglinlin_blog.git
   branch: master
