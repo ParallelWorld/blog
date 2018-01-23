@@ -7,7 +7,7 @@ categories: tomcat
 
 # 什么是 tomcat
 
-[tomcat 中文 wiki](https://zh.wikipedia.org/wiki/Apache_Tomcat)。总的来说，tomcat 是一个支持 **servlet 标准** 的 **web 容器**。
+[tomcat 中文 wiki](https://zh.wikipedia.org/wiki/Apache_Tomcat)。总的来说，tomcat 是一个支持 **servlet 标准** 的 **web 容器**。附上[官网地址](http://tomcat.apache.org/)。
 
 # 什么是容器
 
@@ -36,10 +36,10 @@ nginx 和 apache 是 HTTP 服务器，只支持静态网页，而 tomcat 是支�
 
 以下是文章链接：
 
-* {% post_link tomcat源码分析-1-准备工作 %}
-* {% post_link tomcat源码分析-2-整体架构 %}
-* {% post_link tomcat源码分析-3-HTTP协议解析 %}
-* {% post_link tomcat源码分析-4-版本比较 %}
+* {% post_link tomcat-源码分析-1-准备工作 %}
+* {% post_link tomcat-源码分析-2-整体架构 %}
+* {% post_link tomcat-源码分析-3-HTTP 协议解析 %}
+* {% post_link tomcat-源码分析-4-版本比较 %}
 
 # 参考链接
 
