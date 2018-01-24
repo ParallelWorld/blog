@@ -1,8 +1,8 @@
 ---
 title: 命令行快速打开idea工程
 date: 2018-01-22 17:20:07
-tags:
-categories: 工具
+tags: tool
+categories:
 ---
 
 > 每次用 idea 打开 java 工程时，都要手动选择路径，特别麻烦。如果能在命令行中，`cd`到工程目录下，直接打开就好了。可惜 idea 本身并不提供这样的命令行工具，所以还是用脚本执行吧。
