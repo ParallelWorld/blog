@@ -1,8 +1,8 @@
 ---
 title: mac下端口被占用
 date: 2017-12-27 17:54:33
-tags:
-categories: shell
+tags: shell
+categories:
 ---
 
 mac 系统下查看 8080 端口是否被占用：

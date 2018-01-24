@@ -1,8 +1,8 @@
 ---
 title: 搭建博客（Github+Hexo+文章管理）
 date: 2016-12-30 19:23:15
-tags: blog
-categories: 工具
+tags: tool
+categories:
 ---
 
 今天刚申请了个域名，就迫不及待的建了个人博客。下面是建立过程：

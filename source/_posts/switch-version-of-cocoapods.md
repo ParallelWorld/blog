@@ -1,8 +1,8 @@
 ---
 title: 如何让 Cocoapods 不同版本共存
 date: 2017-01-04 10:24:15
-tags:
-categories: 工具
+tags: tool
+categories:
 ---
 
 公司目前用的 cocoapods 版本是 0.35，而平时自己研究别人源码用的都是 1.0 以上的版本。如果同时安装两个版本，再使用 `pod` 命令时，总是产生冲突，容易出错。此时两个版本的 cocoapods 会安装在同一个环境下，所以考虑如何让两个版本的 ，甚至多个版本的 cocoapods 安装在不同的环境下，那么版本共存和切换就有了可能性。
@@ -11,7 +11,7 @@ categories: 工具
 
 首先我们从 cocoapods 是如何安装的入手分析。
 
-```
+```shell
 sudo gem install cocoapods
 ```
 
@@ -54,13 +54,13 @@ sudo gem install cocoapods
 
 如果你是 mac 的 10.11 及以上系统，需要使用命令
 
-```
+```shell
 sudo gem install cocoapods -v <Version> -n /usr/local/bin
 ```
 
 否则的话使用命令
 
-```
+```shell
 sudo gem install cocoapods -v <Version>
 ```
 
