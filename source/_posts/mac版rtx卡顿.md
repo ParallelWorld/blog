@@ -1,7 +1,7 @@
 ---
 title: mac版rtx卡顿
 date: 2018-01-29 11:32:23
-tags:
+tags: tool
 categories:
 ---
 
